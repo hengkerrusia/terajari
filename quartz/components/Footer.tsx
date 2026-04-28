@@ -15,7 +15,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <p>
           {/* {i18n(cfg.locale).components.footer.createdWith}{" "} */}
-          © {year} PwnTheNotes!. All rights reserved.
+          © {year} Terajari All rights reserved.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
