@@ -5,8 +5,7 @@ cssclasses:
   - no-folder-list
 ---
 
-Jurnal adalah tempat mencatat apa yang dipelajari, dialami, atau dipikirkan setiap harinya. Setiap entri adalah benih yang bisa tumbuh menjadi catatan yang lebih dalam di kebun ini.
-
+Jurnal berisi catatan harian saya yang akan selalu saya update setiap kali saya menemukan benih ilmu baru.
 ## Entri
 
 - [[30-apr-2026|30 April 2026]]
