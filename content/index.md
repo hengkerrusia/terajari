@@ -7,7 +7,8 @@ description: Kebun pengetahuan yang tumbuh seiring apa yang terajari hari ini.
 
 ## Minat
 
-Sekarang saya sedang mendalami [[sains]], [[sastra]], [[agama]], [[filsafat]], [[cybersecurity]], [[pemrograman]], [[bahasa]], [[finansial]], [[self development]], dan [[sejarah]] (haha... banyak sekali, dan mungkin akan bertambah). Pakai graph view untuk melihat koneksi antar-ide, atau search kalau mau langsung ke topik tertentu.
+Sekarang saya sedang tertarik terhadap [[sains]], [[sastra]], [[agama]], [[filsafat]], [[cybersecurity]], [[pemrograman]], [[bahasa]], [[finansial]], [[self development]], dan [[sejarah]] (haha... banyak sekali, dan mungkin akan bertambah). 
+Pakai graph view untuk melihat koneksi antar-ide, atau search kalau mau langsung ke topik tertentu.
 
 - 📓 [[jurnal/index|Jurnal]] — catatan harian apa yang terajari
 
