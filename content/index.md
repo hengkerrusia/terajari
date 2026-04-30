@@ -3,12 +3,13 @@ title: Terajari
 description: Kebun pengetahuan yang tumbuh seiring apa yang terajari hari ini.
 ---
 
-**Terajari** adalah sebuah *digital garden* — ruang hidup untuk mencatat, menghubungkan, dan menumbuhkan pengetahuan. Nama ini berasal dari kata *"ter-ajari"*: segala sesuatu yang telah dipelajari, ditemukan, atau dipahami, hari demi hari.
+**Terajari** adalah *digital garden* — ruang untuk mencatat apa yang saya pelajari dan melihat bagaimana ide-ide itu saling berkaitan. Namanya dari kata ***"ter-ajari"***: sesuatu sudah masuk, sudah dipahami, walau kadang baru seujung kuku.
 
-## 🧭 Mulai Jelajahi
+## Minat
 
-Kamu bisa mulai dari mana saja. Gunakan **graph view** untuk melihat bagaimana ide-ide terhubung, atau gunakan **search** untuk menemukan topik tertentu.
+Sekarang saya sedang mendalami [[sains]], [[sastra]], [[agama]], [[filsafat]], [[cybersecurity]], [[pemrograman]], [[bahasa]], [[finansial]], [[self development]], dan [[sejarah]] (haha... banyak sekali, dan mungkin akan bertambah). Pakai graph view untuk melihat koneksi antar-ide, atau search kalau mau langsung ke topik tertentu.
 
 - 📓 [[jurnal/index|Jurnal]] — catatan harian apa yang terajari
 
-> *"Kita tidak belajar dari pengalaman. Kita belajar dari merefleksikan pengalaman."* — John Dewey
+> *"Bacalah, dengan menyebut nama Tuhanmu yang menciptakan!"*
+> **QS. Al-Alaq: 1**
