@@ -10,7 +10,7 @@ import {
   transformLink,
 } from "../../util/path"
 import path from "path"
-import { visit } from "unist-util-visit"
+import { visitParents } from "unist-util-visit-parents"
 import { toHtml } from "hast-util-to-html"
 import isAbsoluteUrl from "is-absolute-url"
 import { Root, Element } from "hast"
@@ -73,7 +73,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
               allSlugs: ctx.allSlugs,
             }
 
-            visit(tree, "element", (node, _index, parent) => {
+            visitParents(tree, "element", (node, ancestors) => {
               // rewrite all links
               if (
                 node.tagName === "a" &&
@@ -151,11 +151,27 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
 
                   // Defer context extraction until after the full visit,
                   // so all sibling anchors in the same parent also have data-slug set
-                  if (parent && (parent as Element).tagName) {
-                    const parentEl = parent as Element
-                    const blockTags = ["li", "p", "blockquote", "td", "th"]
-                    if (blockTags.includes(parentEl.tagName)) {
-                      contextsToExtract.push({ simple, parent: parentEl })
+                  if (ancestors && ancestors.length > 0) {
+                    let contextNode: Element | undefined = undefined;
+                    // Traverse backwards from immediate parent to root
+                    for (let i = ancestors.length - 1; i >= 0; i--) {
+                      const current = ancestors[i] as Element;
+                      if (!current.tagName) continue;
+                      
+                      // Prioritize outliner blocks
+                      if (current.tagName === "li" || current.tagName === "blockquote") {
+                        contextNode = current;
+                        break;
+                      }
+                      
+                      // Fallback to text blocks if we haven't found a better one
+                      if (!contextNode && ["p", "td", "th"].includes(current.tagName)) {
+                        contextNode = current;
+                      }
+                    }
+                    
+                    if (contextNode) {
+                      contextsToExtract.push({ simple, parent: contextNode });
                     }
                   }
                 }

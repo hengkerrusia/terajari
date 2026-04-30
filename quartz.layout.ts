@@ -35,10 +35,7 @@ export const sharedPageComponents: SharedLayout = {
     ),
   ],
   footer: Component.Footer({
-    links: {
-      "Wargames": "https://www.pwnthe.website",
-      "Discord Community": "https://discord.gg/v9EEVKPWm2",
-    },
+    links: {},
   }),
 }
 

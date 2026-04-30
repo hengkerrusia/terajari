@@ -44,24 +44,16 @@
   }
 }
 
-// Hacker theme enhancements
-// Terminal-style cursor effect for code blocks
-pre {
-  position: relative;
-}
-
-// Syntax highlighting improvements for hacker theme
-code {
-  font-feature-settings: "liga" 1;
-}
-
-// Link hover effect - subtle glow
-a:hover {
-  text-shadow: 0 0 8px color-mix(in srgb, var(--secondary) 40%, transparent);
-}
+// Digital Garden subtle enhancements
 
 // Selection color matches theme
 ::selection {
-  background: var(--secondary);
-  color: var(--light);
+  background: var(--highlight);
+  color: inherit;
 }
+
+// Subtle transition for links
+a {
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
