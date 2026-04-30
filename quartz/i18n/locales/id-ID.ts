@@ -22,8 +22,8 @@ export default {
       quote: "Kutipan",
     },
     backlinks: {
-      title: "Tautan Balik",
-      noBacklinksFound: "Tidak ada tautan balik ditemukan",
+      title: "Referensi",
+      noBacklinksFound: "Tidak ada referensi ditemukan",
     },
     themeToggle: {
       lightMode: "Mode Terang",

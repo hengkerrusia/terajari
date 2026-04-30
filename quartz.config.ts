@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "id-ID",
     baseUrl: "terajari.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
