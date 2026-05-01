@@ -9,3 +9,4 @@ Jurnal berisi catatan harian saya yang akan selalu saya update setiap kali saya 
 ## Entri
 
 - [[30-apr-2026|30 April 2026]]
+- [[01-mei-2026|01 Mei 2026]]
