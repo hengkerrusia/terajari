@@ -3,7 +3,7 @@ title: Terajari
 description: Kebun pengetahuan yang tumbuh seiring apa yang terajari hari ini.
 ---
 
-**Terajari** adalah *digital garden* — ruang untuk mencatat ide menarique yang saya temukan dan melihat bagaimana ide-ide itu saling bertaut. Namanya dari kata ***"ter-ajari"*** atau ***"tera-jari"***. Nama ini diberikan oleh  sobatku, Indah Ristiani.
+**Terajari** adalah *digital garden* — kebun untuk menanam benih-benih ide menarique yang saya temukan dan melihat bagaimana ide-ide itu tumbuh dan saling bertaut. Nama kebun ini dari kata ***"ter-ajari"*** atau ***"tera-jari"***. Nama ini diberikan oleh  sobatku, Indah Ristiani.
 
 Saat ini saya tertarik dengan [[sains]], [[agama]], [[kehidupan]], [[finansial]], [[filsafat]], [[teknologi]], [[boardgame]], [[sastra]], dan apapun yang menarik untuk diwariskan, menjadi referensi dalam mengambil keputusan, atau sekedar bahan basa-basi di tongkrongan.
 
